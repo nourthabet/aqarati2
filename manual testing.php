@@ -1,5 +1,5 @@
 
-register
+//register
 
 <?php
 // Set the registration data
@@ -41,7 +41,7 @@ if ($httpCode == 200 && strpos($response, 'Registration successful!') !== false)
 
 
 
-contact
+//contact
 
 <?php
 // Set the contact form data
@@ -80,7 +80,7 @@ if ($httpCode == 200 && strpos($response, 'Thank you for your message!') !== fal
 
 
 
-search
+//search
 
 <?php
 // Set the search query
@@ -113,9 +113,7 @@ if ($httpCode == 200 && strpos($response, 'Search results for') !== false) {
 }
 ?>
 
-
-
-add
+//add
 
 <?php
 // Retrieve the data from the form or request parameters
@@ -145,10 +143,7 @@ if (empty($name) || empty($description) || empty($price)) {
 }
 ?>
 
-
-
-
-delete
+//delete
 
 <?php
 // Retrieve the ID of the record to delete
@@ -179,7 +174,7 @@ if (empty($id)) {
 
 
 
-edit
+//edit
 
 <?php
 // Retrieve the data from the form or request parameters
@@ -213,7 +208,7 @@ if (empty($id) || empty($name) || empty($description) || empty($price)) {
 
 
 
-display
+//display
 
 
 <?php
